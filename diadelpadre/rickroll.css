@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    background:black;
+}
+
+video{
+    width:100%;
+    height:auto;
+}
+body{
+    margin:0;
+    overflow:hidden;
+    background:black;
+}
+
+.video-background{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    object-fit:contain;
+}
+
+.volver{
+    position:fixed;
+    top:20px;
+    left:20px;
+    z-index:9999;
+}
+
+.volver img{
+    width:50px;
+    cursor:pointer;
+}
